@@ -1,0 +1,15 @@
+#include<stdio.h>
+void swap(int *a,int *b){
+int t;
+t=*a;
+*a=*b;
+*b=t;
+return;
+     }
+int main(){
+int x=3,y=5;
+printf("%d\n",y);
+swap(&x,&y);
+printf("%d",y);
+return 0;
+}
